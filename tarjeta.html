@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>invitación a mi fiesta de 15 años</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+	<style>
+		body {
+		background: #655;
+		background-image: radial-gradient(tan 20%, transparent 0),
+                  radial-gradient(tan 20%, transparent 0);
+		background-size: 10px 10px;
+		background-position: 0 0, 15px 15px;
+
+			height: 100vh;
+			
+			margin: 0;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column; 
+
+		}
+
+		h1 {
+			font-size: 70px;
+			top: 12px;
+    		left: 405px;
+    		color: rgba(28, 28, 27, 60%);
+		}
+
+		h2 {
+			font-size: 40px;
+			top: 126px;
+    		left: 308px;
+    		color: white;
+
+		}
+
+		h3 {
+			top: 254px;
+   			left: 387px;
+    		text-align: center;
+
+		}
+
+		h4 {
+
+			font-family: arial;
+			font-size: 14px;
+
+			top: 477px;
+    		left: 58px;
+    		color: white;
+
+		}
+
+		h1, h2, h3 {
+			font-family: 'Alex Brush', cursive;
+		}
+
+
+
+		.corazon1, .corazon2, .tarjeta, .plantas, .estrellas, h1, h2, h3, h4, .destello {
+			position: absolute;
+		}
+
+		.corazon1 {
+			top: 146px;
+    		left: 172px;
+    		animation-name: latido;
+    		animation-duration: 2s;
+    		animation-iteration-count: infinite;
+		}
+
+		.corazon2 {
+
+			top: 116px;
+    		left: 114px;
+		}
+
+		.contenedor {
+			position: relative;
+
+
+		}
+
+		.plantas {
+			animation-name: plantas;
+			animation-duration: 5s;
+    		animation-iteration-count: infinite;
+
+		}
+
+		.tarjeta {
+			top: 330px;
+    		left: -16px;
+    		animation-name: tarjeta;
+    		animation-duration: 3s;
+    		animation-iteration-count: infinite;
+    		
+		}	
+
+		
+
+		.estrellas {
+			top: 248px;
+    		left: 647px;
+		}
+
+		
+		.a {
+			top: -109px;
+    		left: 323px;
+		}
+
+		.b {
+			top: -109px;
+    		left: 600px;
+		}
+
+		.destello {
+
+			animation-name: brillo;
+			animation-duration: 4s;
+    		animation-iteration-count: infinite;
+
+			top: 151px;
+    		left: 652px;
+		}
+
+		@keyframes latido {
+			0% {
+				transform: scale(1);
+				
+			}
+
+			50% {
+				transform: scale(1.2);
+				
+			}
+
+			100% {
+				transform: scale(1);
+				
+			}
+		}
+
+		@keyframes plantas {
+			0% {
+				transform: rotate(0);
+				transform-origin: bottom;
+			}
+
+			50% {
+				transform: rotate(5deg);
+				transform-origin: bottom;
+
+			}
+
+			100% {
+				transform: rotate(0);
+				transform-origin: bottom;
+			}
+		}	
+
+
+		@keyframes tarjeta {
+			0% {
+				transform: rotate(0);
+				transform-origin: left;
+			}
+
+			50% {
+				transform: rotate(5deg);
+				transform-origin: left;
+
+			}
+
+			100% {
+				transform: rotate(0);
+				transform-origin: left;
+			}
+		}
+
+		@keyframes brillo {
+			0% {
+				transform: scale(0);
+				
+			}
+
+		
+
+			70% {
+
+				transform: scale(0);
+
+			}
+
+			80% {
+				transform: scale(2);
+			}
+
+			86% {
+				transform: scale(0);
+			}
+
+
+			92% {
+				transform: scale(2);
+			}
+
+			100% {
+				transform: scale(0);
+				
+			}
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="contenedor">
+		<figure>
+			<img src="fondo.png"  alt="">
+		</figure>
+
+		<h1 class=""> 15 años</h1>
+
+		<h2>Daniela Espitia Hernandez</h2>
+
+		<h3>Hoy guardo en mis brazos la estrella <br>
+divina que fue mi niñez. <br>
+Y hoy mi adolescencia con alas de ángel se <br>
+eleva hacia el cielo por primera vez. <br>
+Por eso quiero compartir con ustedes <br> mis Quince Años.</h3>
+
+		<h4>
+			Fecha: Enero 9 de 2019  -  Restaurante Bellini, Carrera 13 No. 83-52  -  Hora: 7:00 pm  -  Traje Formal
+		</h4>
+		<figure>
+			<img src="corazon2.png" class="corazon2" alt="">
+		</figure>
+
+		<figure>
+			<img src="corazon1.png" class="corazon1" alt="">
+		</figure>
+
+		<figure class="contenedorTarjeta">
+			<img src="tarjeta.png" class="tarjeta" alt="">
+		</figure>
+
+		<figure>
+			<img src="planta.png" class="plantas b" alt="">
+		</figure>
+
+		<figure>
+			<img src="planta.png" class="plantas a" alt="">
+		</figure>
+
+		<figure >
+			<img src="extrellas.png" class="estrellas" alt="">
+		</figure>
+
+		<figure >
+			<img src="destello.png" class="destello" alt="">
+		</figure>
+
+	</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.582935801987!2d-74.05641698471587!3d4.6682002966091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af525614fa3%3A0xe04eba6d220178fd!2sCra.+13+%2383-52%2C+Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1546966597667" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+	
+</body>
+</html>
